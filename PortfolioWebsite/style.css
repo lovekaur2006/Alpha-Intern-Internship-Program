@@ -1,0 +1,51 @@
+body {
+    background: url(list.avif);
+    background-size: cover;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container {
+    cursor: pointer;
+    width: 360px;
+    padding: 33px;
+    background-color: rgb(253, 252, 246);
+    text-align: center;
+    margin: auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.input {
+    width: 270px;
+    padding: 8px;
+    border: 5px solid black;
+    outline: none;
+    font-size: 19px;
+
+}
+
+button {
+    width: 60px;
+    height: 41px;
+    color: black;
+    background-color: rgb(175, 223, 232);
+    border: none;
+    cursor: pointer;
+    outline: none;
+    border-radius: 2px;
+    font-size: 19px;
+}
+
+.text ul {
+    position: relative;
+    background-color: rgb(175, 223, 232);
+    color: black;
+    font-size: 19px;
+    padding: 7px;
+    text-align: left;
+}
+
+.text ul i {
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+}

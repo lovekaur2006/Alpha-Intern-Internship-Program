@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="design.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="sidebar sidebarGo">
+            <!-- lovepreet -->
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li> <a href="Intro.html">My Intro</a></li>
+                    <li> <a href="blog.html">Blog</a></li>
+                    <li> <a href="contact.html">Contact me</a></li>
+
+                </ul>
+            </nav>
+        </div>
+        <div class="main">
+            <div class="hamburger">
+                <img class="ham" src="hamburger.jpg" alt="" width="23px">
+                <img class="cross" src="cross.jpg" alt="" width="23px">
+            </div>
+            <div class="contactform">
+                <h1>Contact me for work / general queries</h1>
+                <form>
+                    <div class="form-group">
+                        <label for="clientname">Name</label>
+                        <input type="name" class="form-control" id="clientname" aria-describedby="emailHelp"
+                            placeholder="Enter your name"><br>
+                    </div>
+                    <div class="form-group">
+                        <label for="clientemail">Email address</label>
+                        <input type="email" class="form-control" id="clientemail" aria-describedby="emailHelp"
+                            placeholder="Enter email"><br>
+                        <small id="emailHelp" class="form-text text-muted">We'll never share your email and phone
+                            number
+                            with anyone
+                            else.</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="clientphone">Phone Number</label>
+                        <input type="phone" class="form-control" id="clientphone" placeholder="Enter your Phone number">
+                    </div>
+                    <div class="form-group">
+                        <label for="clientenquiry">Enquiry</label>
+                        <input type="text" class="form-control" id="clientenquiry" aria-describedby="emailHelp"><br>
+                    </div>
+                    <div id="form-check">
+                        <input type="checkbox" class="form-check-input" id="Isclient">
+                        <label class="form-check-label" for="Isclient">I want you to work with me</label>
+                    </div>
+                    <div class="btn">
+                        <button type="submit">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
