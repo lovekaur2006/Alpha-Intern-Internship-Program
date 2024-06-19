@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Clone</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/087d540b38.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="app">
+        <div id="sidebar">
+            <nav>
+                <ul>
+                    <li class="brand"><img src="logo.png" alt="Spotify logo"></li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Search</a></li>
+                    <li><a href="#">Your Library</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div id="main">
+            <div class="content">
+                <div class="songItem">
+                    <img src="1.jpg" alt="Album Art">
+                    <div>Tere Hawale<span class="songlistplay"><span class="timestamp">05:50 <i id="0"
+                                    class="far songlistplay fa-play-circle"></i></span></span></div>
+                </div>
+                <div class="songItem">
+                    <img src="2.jpg" alt="Album Art">
+                    <div>Born to Shine<span class="songlistplay"><span class="timestamp">03:33 <i id="1"
+                                    class="far songlistplay fa-play-circle"></i></span></span></div>
+                </div>
+                <div class="songItem">
+                    <img src="3.jpg" alt="Album Art">
+                    <div>Calm Down <span class="songlistplay"><span class="timestamp">03:45 <i id="2"
+                                    class="far songlistplay fa-play-circle"></i></span></span></div>
+                </div>
+                <div class="songItem">
+                    <img src="4.jpg" alt="Album Art">
+                    <div>Cheque <span class="songlistplay"><span class="timestamp">03:03 <i id="3"
+                                    class="far songlistplay fa-play-circle"></i></span></span></div>
+                </div>
+                <div class="songItem">
+                    <img src="5.jpg" alt="Album Art">
+                    <div>Ve kamleya<span class="songlistplay"><span class="timestamp">04:07 <i id="4"
+                                    class="far songlistplay fa-play-circle"></i></span></span></div>
+                </div>
+                <div class="songItem">
+                    <img src="6.jpg" alt="Album Art">
+                    <div>Soulmate<span class="songlistplay"><span class="timestamp">03:33 <i id="5"
+                                    class="far songlistplay fa-play-circle"></i></span></span></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+        <div class="icons">
+            <i class="fas fa-3x fa-step-backward" id="previous"></i>
+            <i class="far fa-3x fa-play-circle" id="masterPlay"></i>
+            <i class="fas fa-3x fa-step-forward" id="next"></i>
+        </div>
+        <div class="songInfo">
+            <img src="playing.gif" alt="" width="42px" id="gif"><span id="masterSongName">Tere Hawale</span>
+        </div>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
